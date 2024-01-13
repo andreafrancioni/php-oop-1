@@ -14,4 +14,10 @@ class Movie
         $this->rating = $rating;
         $this->publish_date = $publish_date;
     }
+
+    public function getMovie()
+    {
+        $result = $this->title . "," . $this->description . "," . $this->rating . "," . $this->publish_date;
+        return $result;
+    }
 }
