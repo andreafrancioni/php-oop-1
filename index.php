@@ -15,7 +15,15 @@
     $film2 = new Movie("Avengers: Infinity War", "L'ultima battaglia è alle porte", 5, 2018);
 
     var_dump($film1);
+    echo "<br>";
+
     var_dump($film2);
+    echo "<br>";
+
+    echo $film1->getMovie();
+    echo "<br>";
+
+    echo $film2->getMovie();
     ?>
 </body>
 
